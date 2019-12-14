@@ -1,0 +1,146 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 470
+  Height = 335
+  Top = 144
+  Width = 432
+  BorderStyle = bsSingle
+  Caption = 'Calculador de Precios By Mauro Developer'
+  ClientHeight = 315
+  ClientWidth = 432
+  Font.Height = -21
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '2.0.2.0'
+  object txtIVA: TEdit
+    Left = 64
+    Height = 38
+    Top = 24
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 2
+  end
+  object txtCosto: TEdit
+    Left = 144
+    Height = 38
+    Top = 120
+    Width = 112
+    Alignment = taRightJustify
+    OnKeyPress = txtCostoKeyPress
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 30
+    Top = 32
+    Width = 32
+    Caption = 'IVA'
+    Font.Height = -21
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 37
+    Height = 30
+    Top = 128
+    Width = 93
+    Caption = 'Costo/u$s'
+    ParentColor = False
+  end
+  object lblPrecioVenta: TLabel
+    Left = 194
+    Height = 45
+    Top = 240
+    Width = 206
+    Caption = 'lblPrecioVenta'
+    Font.Height = -33
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnCalcular: TButton
+    Left = 280
+    Height = 62
+    Top = 144
+    Width = 128
+    Caption = 'Calcular'
+    OnClick = btnCalcularClick
+    TabOrder = 3
+  end
+  object txtDolar: TEdit
+    Left = 288
+    Height = 38
+    Top = 72
+    Width = 112
+    Alignment = taRightJustify
+    TabOrder = 1
+  end
+  object Label4: TLabel
+    Left = 227
+    Height = 30
+    Top = 80
+    Width = 50
+    Caption = 'Dólar'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 24
+    Height = 30
+    Top = 248
+    Width = 114
+    Caption = 'Precio venta'
+    ParentColor = False
+  end
+  object txtGanancia: TEdit
+    Left = 288
+    Height = 38
+    Top = 24
+    Width = 112
+    Alignment = taRightJustify
+    TabOrder = 4
+  end
+  object Label6: TLabel
+    Left = 168
+    Height = 30
+    Top = 32
+    Width = 109
+    Caption = '% Ganancia'
+    ParentColor = False
+  end
+  object txtGananciaNeta: TEdit
+    Left = 144
+    Height = 38
+    Top = 168
+    Width = 112
+    Alignment = taRightJustify
+    ReadOnly = True
+    TabOrder = 5
+  end
+  object Label7: TLabel
+    Left = 32
+    Height = 30
+    Top = 176
+    Width = 103
+    Caption = 'Ganancia $'
+    ParentColor = False
+  end
+  object PopupMenu1: TPopupMenu
+    left = 496
+    top = 32
+  end
+  object MainMenu1: TMainMenu
+    left = 48
+    top = 65508
+    object MenuItem1: TMenuItem
+      Caption = 'Archivo'
+      object MenuItem2: TMenuItem
+        Caption = 'Configuracion'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object itmSalir: TMenuItem
+        Caption = 'Salir'
+        OnClick = itmSalirClick
+      end
+    end
+  end
+end
