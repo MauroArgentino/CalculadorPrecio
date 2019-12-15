@@ -124,7 +124,8 @@ end;
 
 procedure TfrmPrincipal.txtCostoKeyPress(Sender: TObject; var Key: char);
 begin
-  if (Key = DecimalSeparator) then begin
+  if (Key = DecimalSeparator) and
+          (Pos(Key, txtCosto.Text) > 0) then begin
     //ShowMessage('Invalid key: ' + Key);
     Key := ThousandSeparator;
   end

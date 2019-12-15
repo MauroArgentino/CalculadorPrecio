@@ -3,8 +3,8 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="11"/>
-    <BuildModes Active="Default"/>
-    <Units Count="2">
+    <BuildModes Active="Release"/>
+    <Units Count="4">
       <Unit0>
         <Filename Value="CalculadorPrecio.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -12,7 +12,7 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="64"/>
       </Unit0>
       <Unit1>
         <Filename Value="u_calculadorprecio.pas"/>
@@ -22,16 +22,102 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="u_CalculadorPrecio"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="76"/>
-        <CursorPos X="12" Y="87"/>
-        <UsageCount Value="31"/>
+        <TopLine Value="124"/>
+        <CursorPos X="30" Y="127"/>
+        <UsageCount Value="64"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="u_frmacercade.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAcercaDe"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="u_frmAcercaDe"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="D:\LAZARUS\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2172"/>
+        <CursorPos X="15" Y="2179"/>
+        <UsageCount Value="10"/>
+      </Unit3>
     </Units>
-    <General>
-      <ActiveWindowIndexAtStart Value="-1"/>
-    </General>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="17" HistoryIndex="16">
+      <Position1>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="87" Column="12" TopLine="76"/>
+      </Position1>
+      <Position2>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="92" Column="39" TopLine="77"/>
+      </Position2>
+      <Position3>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="68" Column="40" TopLine="68"/>
+      </Position3>
+      <Position4>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="70" Column="40" TopLine="70"/>
+      </Position4>
+      <Position5>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="121" Column="27" TopLine="107"/>
+      </Position5>
+      <Position6>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="99" Column="87" TopLine="83"/>
+      </Position6>
+      <Position7>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="85" Column="6" TopLine="76"/>
+      </Position7>
+      <Position8>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="96" Column="3" TopLine="94"/>
+      </Position8>
+      <Position9>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="120" Column="33" TopLine="114"/>
+      </Position9>
+      <Position10>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="121" Column="20" TopLine="111"/>
+      </Position10>
+      <Position11>
+        <Filename Value="u_frmacercade.pas"/>
+      </Position11>
+      <Position12>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="117" Column="87" TopLine="110"/>
+      </Position12>
+      <Position13>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="127" Column="30" TopLine="118"/>
+      </Position13>
+      <Position14>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="128" Column="30" TopLine="119"/>
+      </Position14>
+      <Position15>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="149" Column="41" TopLine="140"/>
+      </Position15>
+      <Position16>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="130" Column="7" TopLine="120"/>
+      </Position16>
+      <Position17>
+        <Filename Value="u_calculadorprecio.pas"/>
+        <Caret Line="128" Column="51" TopLine="125"/>
+      </Position17>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode=""/>

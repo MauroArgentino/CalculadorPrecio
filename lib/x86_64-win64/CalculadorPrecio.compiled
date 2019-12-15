@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1317892579"/>
+  <Params Value=" -MObjFPC -Scghi -CX -O2 -XX -WG -l -vewnhibq -FiD:\usuarios\alumno\documentos\PROGRAMACION\CalculadorPrecio\lib\x86_64-win64 -FuD:\lazarus\components\rtticontrols\lib\x86_64-win64\win32 -FuD:\lazarus\components\ideintf\units\x86_64-win64\win32 -FuD:\lazarus\components\lazcontrols\lib\x86_64-win64\win32 -FuD:\lazarus\lcl\units\x86_64-win64\win32 -FuD:\lazarus\lcl\units\x86_64-win64 -FuD:\lazarus\components\lazutils\lib\x86_64-win64 -FuD:\lazarus\packager\units\x86_64-win64 -FuD:\usuarios\alumno\documentos\PROGRAMACION\CalculadorPrecio\ -FUD:\usuarios\alumno\documentos\PROGRAMACION\CalculadorPrecio\lib\x86_64-win64\ -FED:\usuarios\alumno\documentos\PROGRAMACION\CalculadorPrecio\ -oD:\usuarios\alumno\documentos\PROGRAMACION\CalculadorPrecio\CalculadorPrecio.exe -dLCL -dLCLwin32 CalculadorPrecio.lpr"/>
+</CONFIG>
